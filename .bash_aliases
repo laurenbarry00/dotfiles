@@ -1,0 +1,6 @@
+alias vscode="code &"
+alias cozy="flatpak run com.github.geigi.cozy &"
+alias aliases="sudo vim ~/.bash_aliases"
+alias intellij="/opt/idea-IU-193.6015.39/bin/idea"
+alias gnome-settings="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
+alias atom="atom --disable-gpu"

@@ -1,0 +1,37 @@
+[global_config]
+  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  smart_copy = False
+  title_inactive_bg_color = "#2e3436"
+  title_inactive_fg_color = "#eeeeec"
+  title_receive_bg_color = "#357c3c"
+  title_transmit_bg_color = "#291976"
+  use_custom_url_handler = True
+[keybindings]
+  close_term = <Primary>w
+  close_window = None
+  split_horiz = <Alt>h
+  split_vert = <Alt>v
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002240"
+    background_darkness = 0.6
+    background_type = transparent
+    cursor_color = "#e5be0c"
+    foreground_color = "#babdb6"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+  [[Ayu mirage]]
+    background_color = "#212733"
+    background_darkness = 0.6
+    background_type = transparent
+    cursor_color = "#FFD580"
+    foreground_color = "#d9d7ce"
+    palette = "#212733:#ff3333:#bae67e:#ffd580:#5ccfe6:#d4bfff:#5ccfe6:#3d4752:#3e4b59:#ff3333:#bae67e:#ffd580:#5ccfe6:#d4bfff:#5ccfe6:#eeeeec"

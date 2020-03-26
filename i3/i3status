@@ -1,0 +1,46 @@
+order += "cpu_temperature 0"
+order += "cpu_usage"
+order += "battery 0"
+order += "wireless _first_"
+order += "ethernet _first_"
+order += "volume master"
+order += "time"
+
+cpu_temperature 0 {
+	format = "%degrees °C"
+}
+
+cpu_usage {
+	format = "%usage"
+}
+
+battery 0 {
+    format = "%status %percentage %remaining"
+    path = "/sys/class/power_supply/BAT1/uevent"
+    low_threshold = "30"
+    threshold_type = "time"
+    last_full_capacity = true
+    integer_battery_capacity = true
+}
+
+wireless _first_ {
+	format_up = "W: %essid, %bitrate, %ip"
+	format_down = "W: n/a"
+}
+
+ethernet _first_ {
+	format_up = "E: %ip (%speed)"
+	format_down = "E: n/a"
+}
+
+volume master {
+        format = "♪: %volume"
+        format_muted = "♪: muted (%volume)"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
+time {
+    format = "%I:%M:%S %p %a %m-%d-%Y"
+}

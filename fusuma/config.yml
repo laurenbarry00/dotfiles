@@ -1,0 +1,16 @@
+swipe:
+    3:
+        up:
+            command: "xdotool key super+Page_Up"
+            threshold: 1
+        down:
+            command: "xdotool key super+Page_Down"
+            threshold: 1
+    4:
+        up:
+            command: "xdotool key super+Page_Up"
+            threshold: 1
+        down:
+            command: "xdotool key super+Page_Down"
+            threshold: 1
+
