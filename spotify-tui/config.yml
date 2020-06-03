@@ -1,22 +1,22 @@
 # Sample config file
 
-# The theme colours can be an rgb string of the form "255, 255, 255" or a string that references the colours from your terminal theme: Reset, Black, Red, Green, Yellow, Blue, Magenta, Cyan, Gray, DarkGray, LightRed, LightGreen, LightYellow, LightBlue, LightMagenta, LightCyan, White.
+# The theme colours can be an rgb string of the form "255, 255, 255" or a string that references the colours from your terminal theme: Reset, Black, Red, Yellow, Yellow, Blue, Magenta, Cyan, Gray, DarkGray, LightRed, LightYellow, LightYellow, LightBlue, LightMagenta, LightCyan, White.
 theme:
-  active: Cyan
-  banner: LightCyan
+  active: Yellow
+  banner: Yellow
   error_border: Red
   error_text: LightRed
-  hint: Yellow
-  hovered: LightGreen
-  inactive: Gray
+  hint: Black
+  hovered: Yellow
+  inactive: White
   playbar_background: Black
-  playbar_progress: LightCyan
-  playbar_text: White
-  selected: LightCyan
-  text: "255, 255, 255"
+  playbar_progress: Green
+  playbar_text: Yellow
+  selected: Green
+  text: Black
 
 behavior:
-  seek_milliseconds: 5000
+  seek_milliseconds: 10000
   volume_increment: 10
   # The lower the number the higher the "frames per second". You can decrease this number so that the audio visualisation is smoother but this can be expensive!
-  tick_rate_milliseconds: 250
+  tick_rate_milliseconds: 100

@@ -11,7 +11,7 @@ BLUE=#0e98edff
 GREEN=#00d93dff
 
 /opt/i3lock-color/build/i3lock \
--e -i ~/Pictures/clink-wallpaper.png \
+-i ~/Pictures/wallpapers/clink-resized.png \
 \
 --insidevercolor=$BLUE   \
 --ringvercolor=$WHITE    \
@@ -36,10 +36,12 @@ GREEN=#00d93dff
 --screen 1            \
 --clock               \
 --indicator           \
-\
+--ignore-empty-password \
+--nofork \
 --timestr="%I:%M:%S %p"  \
 --datestr="%a %b %d, %Y" \
 \
 --wrongtext="Incorrect" \
 --veriftext="Verifying..." \
+--noinputtext="No Input" \
 \

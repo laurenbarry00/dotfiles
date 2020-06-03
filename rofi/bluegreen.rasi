@@ -1,0 +1,124 @@
+/******************************************************************************
+ * ROFI Bluegreen Theme
+ * User: lauren
+ ******************************************************************************/
+
+* {
+    background: #081521FF;
+    foreground: #eceff4;
+
+    lighter: #FFFFFF11;
+    lightest: #FFFFFF22;
+    darker: #00000011;
+
+    blue: #19b5fe;
+    bluegreen: #008b8b;
+    green: #90c695AA;
+    transparent: #FFFFFF00;
+    white: #FFFFFFFF;
+
+
+    normal-foreground: @foreground;
+    normal-background: @transparent;
+    background-color: @background;
+
+    selected-normal-foreground:  @blue;
+    selected-normal-background:  @lighter;
+
+    alternate-normal-foreground: @foreground;
+    alternate-normal-background: @transparent;
+    
+    border-color:                @lighter;
+    separatorcolor:              @blue;
+}
+#window {
+    background-color: @background;
+    width: 25%;
+    border-radius: 10px;
+    transparency: "real";
+}
+
+#mainbox {
+    background-color: #FFFFFF00;
+}
+
+#message {
+    background-color: #FFFFFF00;
+}
+
+#textbox {
+    text-color: @foreground;
+    background-color: #FFFFFF00;
+}
+
+#listview {
+    fixed-height: 0;
+    scrollbar:    true;
+    background-color: #FFFFFF00;
+}
+
+#scrollbar {
+	background-color: @lighter;
+	handle-width: "distance";
+	handle-color: @blue;
+	border-color: @green;
+}
+
+#element {
+    padding: 10px;
+}
+
+#element.normal.normal {
+    background-color: @normal-background;
+    text-color:       @normal-foreground;
+}
+
+#element.selected.normal {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+#element.alternate.normal {
+    background-color: @alternate-normal-background;
+    text-color:       @alternate-normal-foreground;
+}
+
+#button.selected {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+
+#button {
+	text-color: @foreground;
+}
+
+#inputbar {
+    spacing:    10;
+    text-color: @normal-foreground;
+    padding:    1%;
+    background-color: #FFFFFF11;
+}
+#case-indicator {
+    spacing:    0;
+    text-color: @normal-foreground;
+    background-color: #FFFFFF00;
+}
+#entry {
+    spacing:    0;
+    text-color: @foreground;
+    background-color: #FFFFFF00;
+}
+#element {
+	text-color: @foreground;
+	background-color: @green;
+}
+#prompt {
+    spacing:    0;
+    text-color: @blue;
+    background-color: #FFFFFF00;
+}
+
+#sidebar {
+    border:       1px 0px 0px ;
+    border-color: @separatorcolor;
+    text-color: @foreground;
+}

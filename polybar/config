@@ -1,4 +1,4 @@
-2;==========================================================
+;==========================================================
 ;
 ;
 ;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
@@ -26,13 +26,9 @@ secondary = #00d93d
 alert = #a8031a
 
 [bar/main]
-;monitor = ${env:MONITOR:HDMI-1}
 bottom = true
 width = 100%
 height = 27
-;offset-x = 1%
-;offset-y = 1%
-;radius = 6.0
 fixed-center = false
 
 background = ${colors.background}
@@ -45,24 +41,32 @@ border-size = 4
 border-color = #00000000
 
 padding-left = 0
-padding-right = 2
+padding-right = 0
 
-module-margin-left = 1
-module-margin-right = 2
+module-margin-left = 2
+module-margin-right = 0
 
-font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
+font-0 = "DejaVu Sans":size=10;1
+font-1 = siji:size=12;1
+font-2 = FontAwesome5Free:style=Solid:size=8;2
+font-3 = FontAwesome5Free:style=Regular:size=8;2
+font-4 = FontAwesome5Brands:style=Regular:size=8;2
 
 modules-left = i3
 modules-center = 
-modules-right = xbacklight pulseaudio memory cpu temperature wlan eth battery date
+modules-right = xbacklight pulseaudio memory cpu temperature wlan battery date
 
 tray-position = right
 tray-padding = 2
+tray-scale = 1.0
 
 cursor-click = pointer
-cursor-scroll = ns-resize
+cursor-scroll = pointer
+
+# to make polybar play nice with i3
+override-redirect = true
+wm-restack = i3
+
 
 [module/i3]
 type = internal/i3
@@ -74,7 +78,7 @@ strip-wsnumbers = false
 
 label-mode-padding = 2
 label-mode-foreground = #000
-label-mode-background = ${colors.primary}
+label-mode-background = ${colors.primary} 
 
 ; focused = Active workspace on focused monitor
 label-focused = %name%
@@ -99,40 +103,37 @@ label-urgent-padding = 2
 
 
 [module/xbacklight]
-type = internal/xbacklight
-enable-scroll = true
-
-format = <label> <bar>
-label = BL: %percentage%%
-
-bar-width = 10
-bar-indicator = 
-bar-indicator-foreground = #fff
-bar-indicator-font = 2
-bar-fill = ▬
-bar-fill-font = 2
-bar-fill-foreground = ${colors.primary}
-bar-empty = ─
-bar-empty-font = 2
-bar-empty-foreground = ${colors.foreground-alt}
-
-
-[module/backlight-acpi]
-inherit = module/xbacklight
 type = internal/backlight
 card = intel_backlight
+enable-scroll = true
+
+format = <ramp> <label> 
+format-underline = ${colors.primary}
+label = %percentage%%
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
 
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
-sink = alsa_output.pci-0000_00_1f.3.analog-stereo
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
 
-format-volume = <label-volume> <bar-volume>
-label-volume = VOL: %percentage%%
+master-mixer = Master
+
+format-volume = <ramp-volume> <label-volume>
+format-volume-underline = ${colors.primary}
+label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted = VOL: Muted (%percentage%%)
+ramp-volume-0 = 
+ramp-volume-1 = 
+
+label-muted =  (%percentage%%)
 label-muted-foreground = #666
 
 bar-volume-width = 10
@@ -158,7 +159,7 @@ type = internal/memory
 interval = 2
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = ${colors.primary}
-label = RAM: %percentage_used%%
+label =  %percentage_used%%
 
 
 [module/cpu]
@@ -166,7 +167,7 @@ type = internal/cpu
 interval = 2
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = ${colors.primary}
-label = CPU: %percentage:2%%
+label =  %percentage:2%%
 
 
 [module/temperature]
@@ -174,9 +175,9 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
-format = <label>
+format =  <label>
 format-underline = ${colors.primary}
-format-warn = <label-warn>
+format-warn =  <label-warn>
 format-warn-underline = ${colors.alert}
 
 label = %temperature-c%
@@ -185,61 +186,47 @@ label-warn = %temperature-c%
 
 [module/wlan]
 type = internal/network
-interface = wlo1
+interface = wlp0s20f3
 interval = 3.0
 
-format-connected = <label-connected>
-format-connected-prefix = "W: "
+format-connected = <ramp-signal> <label-connected>
 format-connected-underline = ${colors.secondary}
-label-connected = %essid%
+label-connected= %essid% %downspeed%
+#label-connected = %essid:0:10:...% %downspeed%
 
-format-disconnected = W: N/A
-;format-disconnected = <label-disconnected>
+format-disconnected =  Disconnected
 format-disconnected-underline = ${colors.alert}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
 
-ramp-signal-foreground = ${colors.foreground-alt}
-
-
-[module/eth]
-type = internal/network
-interface = eno1
-interval = 3.0
-
-format-connected-underline = ${colors.secondary}
-format-connected-prefix = "E: "
-format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %local_ip%
-
-format-disconnected =
-;format-disconnected = <label-disconnected>
-format-disconnected-underline = ${colors.alert}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
+ramp-signal-foreground = ${colors.foreground}
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
 
 
 [module/battery]
 type = internal/battery
-battery = BAT1
-adapter = ACAD
+battery = BAT0
+adapter = AC
 
-poll-interval = 1
-full-at = 98
+poll-interval = 5
+full-at = 97
 time-format = %H:%M
 
-bar-capacity-width = 10
-
-format-charging = AC: <label-charging>
-label-charging = %percentage%%
+format-charging = <label-charging>
+label-charging =  %percentage%% (%time% to full)
 format-charging-underline = ${colors.primary}
 
-format-discharging = BAT: <label-discharging>
+format-discharging = <ramp-capacity> <label-discharging>
 label-discharging = %percentage%%, %time%
 format-discharging-underline = ${colors.primary}
 
-format-full = BAT: <label-full>
-label-full = %percentage%% FULL
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+
+
+format-full = <label-full>
+label-full =  %percentage%%
 format-full-underline = ${colors.secondary}
 
 
@@ -248,10 +235,10 @@ type = internal/date
 interval = 1
 
 date =
-date-alt = " %a %b %d, %Y"
+date-alt = " %a %b %d, %Y"
 
-time = %I:%M:%S %p
-time-alt = %I:%M:%S %p | 
+time =  %I:%M:%S %p
+time-alt =  %I:%M:%S %p | 
 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = ${colors.primary}
@@ -261,7 +248,3 @@ label = %time% %date%
 
 [settings]
 screenchange-reload = true
-
-[global/wm]
-margin-top = 5
-margin-bottom = 5

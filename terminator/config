@@ -26,21 +26,10 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#001221"
-    background_darkness = 0.8
-    background_type = transparent
-    cursor_color = "#f5f5f5"
-    foreground_color = "#f5f5f5"
-    palette = "#f5f5f5:#00189a:#00488e:#0076b9:#006768:#007448:#008f3e:#00b93e:#7b7b7b:#00189a:#00488e:#0076b9:#006768:#007448:#008f3e:#00b93e"
+    palette = "#90C8FF:#19b5fe:#006CA3:#90c695:#00a566:#2ecc32:#008b8b:#37494F:#90C8FF:#19b5fe:#006CA3:#90c695:#00a566:#2ecc32:#008b8b:#37494F"
+    foreground_color = "#eceff4"
+    background_color = "#081521"
+    cursor_color = "#eceff4"
     scrollback_infinite = True
     scrollbar_position = hidden
     show_titlebar = False
-  [[otherblue]]
-    background_color = "#002240"
-    background_darkness = 0.6
-    background_type = transparent
-    cursor_color = "#e5be0c"
-    foreground_color = "#ffffff"
-    icon_bell = False
-    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
-    scrollback_infinite = True

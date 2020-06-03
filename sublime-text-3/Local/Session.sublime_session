@@ -1,0 +1,827 @@
+{
+	"folder_history":
+	[
+		"/home/lauren/code/comicsapp/docs",
+		"/usr/share/plymouth/themes/ubuntu-logo",
+		"/home/lauren/code/linq-ui",
+		"/home/lauren/.atom/packages/bluegreen-syntax",
+		"/home/lauren/code/fp-group-7/assembler",
+		"/home/lauren/github/bluegreen-syntax",
+		"/home/lauren/.config/terminator",
+		"/home/lauren/Downloads/linq-ui-master",
+		"/home/lauren/Downloads/linq-ui-master/public",
+		"/home/lauren/Downloads/login code",
+		"/home/lauren/code/fp-group-7/FP_2/alu",
+		"/home/lauren/code/fp-group-7",
+		"/home/lauren/code/mips_1",
+		"/home/lauren/code/linq/linqbackend/instagram",
+		"/home/lauren/code/linq/linqbackend/linqbackend",
+		"/home/lauren/code/chatter"
+	],
+	"last_version": 3211,
+	"last_window_id": 19,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1142.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"revr",
+						"ReverseSentence"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"theme",
+						"ayu: Activate theme"
+					],
+					[
+						"discord",
+						"Preferences: Discord Rich Presence Settings"
+					],
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"ayu",
+						"ayu: Activate theme"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/lauren/.bashrc",
+				"/home/lauren/.profile",
+				"/home/lauren/.config/spicetify/Themes/bluegreen/color.ini",
+				"/home/lauren/.config/spicetify/config.ini",
+				"/home/lauren/.config/spicetify/Themes/bluegreen/user.css",
+				"/home/lauren/.mozilla/firefox/on3ogk42.default-release/chrome/userChrome.css",
+				"/home/lauren/.config/polybar/config",
+				"/home/lauren/Documents/terminal-sexy-theme.json",
+				"/home/lauren/.config/i3/config",
+				"/home/lauren/.config/i3/lockblur.sh",
+				"/home/lauren/code/comicsapp/docs/database/README.md",
+				"/home/lauren/code/comicsapp/docs/architecture/README.md",
+				"/home/lauren/code/comicsapp/docs/api/README.md",
+				"/home/lauren/code/comicsapp/docs/README.md",
+				"/home/lauren/.config/i3/lock.sh",
+				"/home/lauren/.cache/.fr-vgHlwl/build/index.html",
+				"/home/lauren/Documents/pacmd-sinks.txt",
+				"/home/lauren/Documents/config.json",
+				"/home/lauren/.cache/.fr-OS6ADf/stylesheet.css",
+				"/home/lauren/code/finchbot/.gitignore",
+				"/home/lauren/.cache/.fr-kEikbs/Quicksand SIL OFL License 1.1.txt",
+				"/home/lauren/.cache/.fr-rLSHcg/stylesheet.css",
+				"/usr/share/applications/thunderbird.desktop",
+				"/home/lauren/code/linq-ui/src/dummy_comments.json",
+				"/home/lauren/code/linq/linqbackend/linqbackend/settings.py",
+				"/home/lauren/code/linq/linqbackend/users/views.py",
+				"/home/lauren/.config/compton/compton.conf",
+				"/home/lauren/code/linq/linqbackend/pytest.ini",
+				"/home/lauren/code/linq/linqbackend/youtube/migrations/__init__.py",
+				"/home/lauren/code/linq/linqbackend/users/migrations/__init__.py",
+				"/home/lauren/code/linq/linqbackend/linqbackend/wsgi.py",
+				"/home/lauren/code/linq/linqbackend/linqbackend/asgi.py",
+				"/home/lauren/code/linq/linqbackend/linqbackend/celery.py",
+				"/home/lauren/code/linq-api-responses.json",
+				"/home/lauren/code/response-modal-temp.scss",
+				"/home/lauren/.config/terminator/config",
+				"/home/lauren/.config/redshift.conf",
+				"/home/lauren/.config/rofi/config.rasi",
+				"/home/lauren/.config/rofi/bluegreen.rasi",
+				"/home/lauren/Documents/udev.txt",
+				"/home/lauren/code/linq-ui/src/js/components/KeywordsConfigList.js",
+				"/home/lauren/.config/i3/rofi.sh",
+				"/home/lauren/.config/rofi/config",
+				"/home/lauren/Videos/[Furi] Avatar - The Last Airbender [720p] (Full 3 Seasons + Extras)/[Furi] Avatar - The Last Airbender [720p].nfo",
+				"/home/lauren/snap/spt/221/.config/spotify-tui/config.yml",
+				"/usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.script",
+				"/usr/share/plymouth/themes/default.plymouth",
+				"/usr/share/plymouth/themes/default.grub",
+				"/home/lauren/.config/dunst/dunstrc",
+				"/etc/X11/xorg.conf.d/20-backlight.conf",
+				"/etc/X11/xorg.conf.d/20-intel.conf",
+				"/home/lauren/code/dotfiles/terminator/config",
+				"/home/lauren/code/dotfiles/spotify-tui/config.yml",
+				"/home/lauren/code/dotfiles/i3/rename_ws.py",
+				"/home/lauren/Downloads/dunstrc1",
+				"/etc/X11/xorg.conf.d/10-monitor.conf",
+				"/etc/X11/xorg.conf.d/90-touchpad.conf",
+				"/home/lauren/code/fp-group-7/assembler/input.txt",
+				"/home/lauren/code/fp-group-7/FP_3/README.md",
+				"/home/lauren/code/fp-group-7/assembler/input.tx",
+				"/home/lauren/.config/sublime-text-3/Packages/THEMES/BlueGreen.tmTheme",
+				"/home/lauren/code/linq-ui",
+				"/home/lauren/.atom/packages/bluegreen-syntax/styles/base.less",
+				"/home/lauren/.atom/packages/bluegreen-syntax/styles/colors.less",
+				"/home/lauren/.atom/packages/bluegreen-syntax/styles/syntax-variables.less",
+				"/home/lauren/Downloads/message.txt",
+				"/home/lauren/code/fp-group-7/assembler/assembler.py",
+				"/home/lauren/Downloads/hybrid.txt",
+				"/home/lauren/Documents/terminal-sexy-theme.txt",
+				"/etc/systemd/logind.conf",
+				"/usr/share/gnome-shell/theme/gdm3.css",
+				"/home/lauren/code/fp-group-7/assembler/output.txt",
+				"/home/lauren/code/linq-ui/package-lock.json",
+				"/home/lauren/Downloads/linq-ui-master/src/css/global.scss",
+				"/home/lauren/Downloads/global.scss",
+				"/home/lauren/code/linq-ui/config.xml",
+				"/etc/network/interfaces",
+				"/home/lauren/.cache/.fr-U4030s/linq-ui-master/public/index.html",
+				"/etc/NetworkManager/conf.d/default-wifi-powersave-on.conf",
+				"/home/lauren/code/linq-ui/README.md",
+				"/home/lauren/code/linq-ui/package.json",
+				"/home/lauren/code/linq-ui/public/index.html",
+				"/etc/default/tlp",
+				"/home/lauren/Documents/christ-transforms.txt",
+				"/home/lauren/.bash_aliases",
+				"/home/lauren/code/fp-group-7/FP_2/alu/alu.vhd",
+				"/home/lauren/code/fp-group-7/FP_2/alu/sim_alu.vhd",
+				"/home/lauren/code/fp-group-7/.gitignore",
+				"/home/lauren/code/fp-group-7/FP_2/alu/Nexys4DDR_Master.xdc",
+				"/home/lauren/code/fp-group-7/FP_2/alu/setup_project.tcl",
+				"/home/lauren/code/fp-group-7/FP_2/alu/vivado.log",
+				"/home/lauren/code/fp-group-7/FP_2/alu/vivado.jou",
+				"/home/lauren/code/fp-group-7/FP_2/alu/nix_gen.sh",
+				"/home/lauren/code/fp-group-7/FP_2/alu/gen.sh",
+				"/home/lauren/code/mips_1/sim_alu.vhd",
+				"/home/lauren/code/mips_1/alu.vhd",
+				"/home/lauren/code/SANDBOX/ReverseSentence.java",
+				"/home/lauren/code/SANDBOX/reverseSentence.java",
+				"/home/lauren/code/fp-group-7/processor/setup_project.tcl",
+				"/home/lauren/code/fp-group-7/setup_project.tcl",
+				"/home/lauren/code/fp-group-7/gen.sh",
+				"/home/lauren/.config/i3/displayadj.sh",
+				"/home/lauren/code/linq-ui/.gitignore",
+				"/home/lauren/Downloads/teleion_questions.txt",
+				"/home/lauren/Documents/xrandr",
+				"/home/lauren/code/SANDBOX/mystery.cpp",
+				"/home/lauren/.config/spotifyd/spotifyd.conf",
+				"/usr/share/gnome-shell/theme/ubuntu.css",
+				"/lib/plymouth/themes/ubuntu-logo/ubuntu-logo.script",
+				"/lib/plymouth/themes/ubuntu-logo/ubuntu",
+				"/home/lauren/code/linq/linqbackend/instagram/scheduler.py",
+				"/home/lauren/code/fp-group-7/README.md",
+				"/home/lauren/code/group-7-fp/README.md",
+				"/home/lauren/Documents/email2pete.txt",
+				"/home/lauren/code/chatter/chatterClient/src/main/java/me/laurenbarry/chatter/ChatterClient.java",
+				"/usr/local/share/doc/polybar/config",
+				"/home/lauren/.config/i3/polybar.sh",
+				"/home/lauren/.config/fusuma/config.yml",
+				"/home/lauren/code/leetcode/AddTwoNumbers.java",
+				"/home/lauren/.config/redshift/redshift.conf",
+				"/home/lauren/snap/spt/157/.config/spotify-tui/config.yml",
+				"/home/lauren/.config/polybar/spotify.py",
+				"/etc/tlp.conf",
+				"/home/lauren/.config/rofi/blue.rasi"
+			],
+			"find":
+			{
+				"height": 56.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 479.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 299.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 939.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"b64",
+						"b64_format"
+					],
+					[
+						"revr",
+						"ReverseSentence"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/lauren/code/comicsapp/docs/README.md",
+					"settings":
+					{
+						"buffer_size": 152,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/lauren/code/comicsapp/docs/database/README.md",
+					"settings":
+					{
+						"buffer_size": 226,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/lauren/.config/i3/config",
+					"settings":
+					{
+						"buffer_size": 8668,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"theme",
+						"ayu: Activate theme"
+					],
+					[
+						"discord",
+						"Preferences: Discord Rich Presence Settings"
+					],
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"ayu",
+						"ayu: Activate theme"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Install Package Control"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/lauren/code/SCRIPTS/screenshot.py",
+				"/tmp/screenshot.png",
+				"/home/lauren/Documents/terminal-sexy-theme.json",
+				"/home/lauren/.bashrc",
+				"/home/lauren/.profile",
+				"/home/lauren/.config/spicetify/Themes/bluegreen/color.ini",
+				"/home/lauren/.config/spicetify/config.ini",
+				"/home/lauren/.config/spicetify/Themes/bluegreen/user.css",
+				"/home/lauren/.mozilla/firefox/on3ogk42.default-release/chrome/userChrome.css",
+				"/home/lauren/.config/polybar/config",
+				"/home/lauren/.config/i3/config",
+				"/home/lauren/.config/i3/lockblur.sh",
+				"/home/lauren/code/comicsapp/docs/database/README.md",
+				"/home/lauren/code/comicsapp/docs/architecture/README.md",
+				"/home/lauren/code/comicsapp/docs/api/README.md",
+				"/home/lauren/code/comicsapp/docs/README.md",
+				"/home/lauren/.config/i3/lock.sh",
+				"/home/lauren/.cache/.fr-vgHlwl/build/index.html",
+				"/home/lauren/Documents/pacmd-sinks.txt",
+				"/home/lauren/Documents/config.json",
+				"/home/lauren/.cache/.fr-OS6ADf/stylesheet.css",
+				"/home/lauren/code/finchbot/.gitignore",
+				"/home/lauren/.cache/.fr-kEikbs/Quicksand SIL OFL License 1.1.txt",
+				"/home/lauren/.cache/.fr-rLSHcg/stylesheet.css",
+				"/usr/share/applications/thunderbird.desktop",
+				"/home/lauren/code/linq-ui/src/dummy_comments.json",
+				"/home/lauren/code/linq/linqbackend/linqbackend/settings.py",
+				"/home/lauren/code/linq/linqbackend/users/views.py",
+				"/home/lauren/.config/compton/compton.conf",
+				"/home/lauren/code/linq/linqbackend/pytest.ini",
+				"/home/lauren/code/linq/linqbackend/youtube/migrations/__init__.py",
+				"/home/lauren/code/linq/linqbackend/users/migrations/__init__.py",
+				"/home/lauren/code/linq/linqbackend/linqbackend/wsgi.py",
+				"/home/lauren/code/linq/linqbackend/linqbackend/asgi.py",
+				"/home/lauren/code/linq/linqbackend/linqbackend/celery.py",
+				"/home/lauren/code/linq-api-responses.json",
+				"/home/lauren/code/response-modal-temp.scss",
+				"/home/lauren/.config/terminator/config",
+				"/home/lauren/.config/redshift.conf",
+				"/home/lauren/.config/rofi/config.rasi",
+				"/home/lauren/.config/rofi/bluegreen.rasi",
+				"/home/lauren/Documents/udev.txt",
+				"/home/lauren/code/linq-ui/src/js/components/KeywordsConfigList.js",
+				"/home/lauren/.config/i3/rofi.sh",
+				"/home/lauren/.config/rofi/config",
+				"/home/lauren/Videos/[Furi] Avatar - The Last Airbender [720p] (Full 3 Seasons + Extras)/[Furi] Avatar - The Last Airbender [720p].nfo",
+				"/home/lauren/snap/spt/221/.config/spotify-tui/config.yml",
+				"/usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.script",
+				"/usr/share/plymouth/themes/default.plymouth",
+				"/usr/share/plymouth/themes/default.grub",
+				"/home/lauren/.config/dunst/dunstrc",
+				"/etc/X11/xorg.conf.d/20-backlight.conf",
+				"/etc/X11/xorg.conf.d/20-intel.conf",
+				"/home/lauren/code/dotfiles/terminator/config",
+				"/home/lauren/code/dotfiles/spotify-tui/config.yml",
+				"/home/lauren/code/dotfiles/i3/rename_ws.py",
+				"/home/lauren/Downloads/dunstrc1",
+				"/etc/X11/xorg.conf.d/10-monitor.conf",
+				"/etc/X11/xorg.conf.d/90-touchpad.conf",
+				"/home/lauren/code/fp-group-7/assembler/input.txt",
+				"/home/lauren/code/fp-group-7/FP_3/README.md",
+				"/home/lauren/code/fp-group-7/assembler/input.tx",
+				"/home/lauren/.config/sublime-text-3/Packages/THEMES/BlueGreen.tmTheme",
+				"/home/lauren/code/linq-ui",
+				"/home/lauren/.atom/packages/bluegreen-syntax/styles/base.less",
+				"/home/lauren/.atom/packages/bluegreen-syntax/styles/colors.less",
+				"/home/lauren/.atom/packages/bluegreen-syntax/styles/syntax-variables.less",
+				"/home/lauren/Downloads/message.txt",
+				"/home/lauren/code/fp-group-7/assembler/assembler.py",
+				"/home/lauren/Downloads/hybrid.txt",
+				"/home/lauren/Documents/terminal-sexy-theme.txt",
+				"/etc/systemd/logind.conf",
+				"/usr/share/gnome-shell/theme/gdm3.css",
+				"/home/lauren/code/fp-group-7/assembler/output.txt",
+				"/home/lauren/code/linq-ui/package-lock.json",
+				"/home/lauren/Downloads/linq-ui-master/src/css/global.scss",
+				"/home/lauren/Downloads/global.scss",
+				"/home/lauren/code/linq-ui/config.xml",
+				"/etc/network/interfaces",
+				"/home/lauren/.cache/.fr-U4030s/linq-ui-master/public/index.html",
+				"/etc/NetworkManager/conf.d/default-wifi-powersave-on.conf",
+				"/home/lauren/code/linq-ui/README.md",
+				"/home/lauren/code/linq-ui/package.json",
+				"/home/lauren/code/linq-ui/public/index.html",
+				"/etc/default/tlp",
+				"/home/lauren/Documents/christ-transforms.txt",
+				"/home/lauren/.bash_aliases",
+				"/home/lauren/code/fp-group-7/FP_2/alu/alu.vhd",
+				"/home/lauren/code/fp-group-7/FP_2/alu/sim_alu.vhd",
+				"/home/lauren/code/fp-group-7/.gitignore",
+				"/home/lauren/code/fp-group-7/FP_2/alu/Nexys4DDR_Master.xdc",
+				"/home/lauren/code/fp-group-7/FP_2/alu/setup_project.tcl",
+				"/home/lauren/code/fp-group-7/FP_2/alu/vivado.log",
+				"/home/lauren/code/fp-group-7/FP_2/alu/vivado.jou",
+				"/home/lauren/code/fp-group-7/FP_2/alu/nix_gen.sh",
+				"/home/lauren/code/fp-group-7/FP_2/alu/gen.sh",
+				"/home/lauren/code/mips_1/sim_alu.vhd",
+				"/home/lauren/code/mips_1/alu.vhd",
+				"/home/lauren/code/SANDBOX/ReverseSentence.java",
+				"/home/lauren/code/SANDBOX/reverseSentence.java",
+				"/home/lauren/code/fp-group-7/processor/setup_project.tcl",
+				"/home/lauren/code/fp-group-7/setup_project.tcl",
+				"/home/lauren/code/fp-group-7/gen.sh",
+				"/home/lauren/.config/i3/displayadj.sh",
+				"/home/lauren/code/linq-ui/.gitignore",
+				"/home/lauren/Downloads/teleion_questions.txt",
+				"/home/lauren/Documents/xrandr",
+				"/home/lauren/code/SANDBOX/mystery.cpp",
+				"/home/lauren/.config/spotifyd/spotifyd.conf",
+				"/usr/share/gnome-shell/theme/ubuntu.css",
+				"/lib/plymouth/themes/ubuntu-logo/ubuntu-logo.script",
+				"/lib/plymouth/themes/ubuntu-logo/ubuntu",
+				"/home/lauren/code/linq/linqbackend/instagram/scheduler.py",
+				"/home/lauren/code/fp-group-7/README.md",
+				"/home/lauren/code/group-7-fp/README.md",
+				"/home/lauren/Documents/email2pete.txt",
+				"/home/lauren/code/chatter/chatterClient/src/main/java/me/laurenbarry/chatter/ChatterClient.java",
+				"/usr/local/share/doc/polybar/config",
+				"/home/lauren/.config/i3/polybar.sh",
+				"/home/lauren/.config/fusuma/config.yml",
+				"/home/lauren/code/leetcode/AddTwoNumbers.java",
+				"/home/lauren/.config/redshift/redshift.conf",
+				"/home/lauren/snap/spt/157/.config/spotify-tui/config.yml",
+				"/home/lauren/.config/polybar/spotify.py",
+				"/etc/tlp.conf",
+				"/home/lauren/.config/rofi/blue.rasi"
+			],
+			"find":
+			{
+				"height": 56.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/lauren/code/comicsapp/docs/README.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 152,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										129,
+										129
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/lauren/code/comicsapp/docs/database/README.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 226,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										226,
+										226
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/lauren/.config/i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8668,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5952,
+										5952
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 4182.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 479.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,967,14,1906,1156,1920,1200",
+			"project": "",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 299.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 19,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

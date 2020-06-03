@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ayu",
+		"Discord Rich Presence",
+		"LESS",
+		"MasmAssembly",
+		"Nord",
+		"Package Control",
+		"Sass",
+		"VHDL"
+	]
+}
