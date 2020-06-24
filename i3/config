@@ -267,6 +267,9 @@ for_window [class="^Steam$" title=".* CD key"] floating enable
 for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
 for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
 
+# float IntelliJ splash
+for_window [class="^jetbrains-idea" title="win0"] floating enable
+
 # keybind for detecting external monitor
 # kinda not needed because of autorandr but just in case
 bindsym $mod+Shift+m exec xrandr --output eDP-1 --auto --primary --output DP-3 --auto --right-of eDP-1

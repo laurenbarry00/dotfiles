@@ -359,33 +359,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/lauren/code/comicsapp/docs/README.md",
-					"settings":
-					{
-						"buffer_size": 152,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/lauren/code/comicsapp/docs/database/README.md",
-					"settings":
-					{
-						"buffer_size": 226,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/lauren/.config/i3/config",
-					"settings":
-					{
-						"buffer_size": 8668,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -475,6 +448,15 @@
 			},
 			"file_history":
 			[
+				"/home/lauren/code/dotfiles/spotifyd/spotifyd.conf",
+				"/home/lauren/.ssh/config",
+				"/home/lauren/.config/kactivitymanagerdrc",
+				"/home/lauren/code/docusign-codetest/.gitignore",
+				"/home/lauren/replay_pid27511.log",
+				"/home/lauren/java_error_in_IDEA_2990.log",
+				"/home/lauren/.config/i3/config",
+				"/home/lauren/code/comicsapp/docs/database/README.md",
+				"/home/lauren/code/comicsapp/docs/README.md",
 				"/home/lauren/code/SCRIPTS/screenshot.py",
 				"/tmp/screenshot.png",
 				"/home/lauren/Documents/terminal-sexy-theme.json",
@@ -485,12 +467,9 @@
 				"/home/lauren/.config/spicetify/Themes/bluegreen/user.css",
 				"/home/lauren/.mozilla/firefox/on3ogk42.default-release/chrome/userChrome.css",
 				"/home/lauren/.config/polybar/config",
-				"/home/lauren/.config/i3/config",
 				"/home/lauren/.config/i3/lockblur.sh",
-				"/home/lauren/code/comicsapp/docs/database/README.md",
 				"/home/lauren/code/comicsapp/docs/architecture/README.md",
 				"/home/lauren/code/comicsapp/docs/api/README.md",
-				"/home/lauren/code/comicsapp/docs/README.md",
 				"/home/lauren/.config/i3/lock.sh",
 				"/home/lauren/.cache/.fr-vgHlwl/build/index.html",
 				"/home/lauren/Documents/pacmd-sinks.txt",
@@ -596,11 +575,7 @@
 				"/home/lauren/.config/i3/polybar.sh",
 				"/home/lauren/.config/fusuma/config.yml",
 				"/home/lauren/code/leetcode/AddTwoNumbers.java",
-				"/home/lauren/.config/redshift/redshift.conf",
-				"/home/lauren/snap/spt/157/.config/spotify-tui/config.yml",
-				"/home/lauren/.config/polybar/spotify.py",
-				"/etc/tlp.conf",
-				"/home/lauren/.config/rofi/blue.rasi"
+				"/home/lauren/.config/redshift/redshift.conf"
 			],
 			"find":
 			{
@@ -635,95 +610,8 @@
 			"groups":
 			[
 				{
-					"selected": 2,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/lauren/code/comicsapp/docs/README.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 152,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										129,
-										129
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/lauren/code/comicsapp/docs/database/README.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 226,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										226,
-										226
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/lauren/.config/i3/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 8668,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5952,
-										5952
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 4182.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -767,7 +655,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,967,14,1906,1156,1920,1200",
+			"position": "0,0,0,0,0,647,14,1273,1156,1920,1200",
 			"project": "",
 			"replace":
 			{
